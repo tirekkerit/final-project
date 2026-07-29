@@ -278,6 +278,57 @@ footer {
   font-size: 20px;
 }
 
+/*NBA HOVER*/
+.img-hover {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 16 / 9;
+  overflow: visible;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.img-hover img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.8s ease;
+}
+
+.img-one {
+  opacity: 1;
+}
+
+.img-two {
+  opacity: 0;
+}
+
+.img-hover:hover .img-one {
+  opacity: 0;
+}
+
+.img-hover:hover .img-two {
+  opacity: 1;
+}
+
+/*CAPTION NBA*/
+.img-hover figcaption {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.img-hover figcaption span {
+  font-size: 25px;
+}
+
 /*DROPDOWN*/
 .dropdown {
   position: relative;
