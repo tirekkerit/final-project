@@ -580,7 +580,7 @@ footer {
   z-index: 2; 
 }
 
-@media (max-width: 720px) { /*ADJUSTS FOR SMALLER SCREENS*/
+@media (max-width: 720px) { 
   .grid {
     grid-template-columns: 1fr;
   }
